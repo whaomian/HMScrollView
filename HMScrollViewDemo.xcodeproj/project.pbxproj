@@ -13,6 +13,12 @@
 		1595AA8615523FD800B153F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1595AA8415523FD800B153F4 /* InfoPlist.strings */; };
 		1595AA8815523FD800B153F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595AA8715523FD800B153F4 /* main.m */; };
 		1595AA8C15523FD800B153F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595AA8B15523FD800B153F4 /* AppDelegate.m */; };
+		1595AA951552404A00B153F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595AA931552404900B153F4 /* ViewController.m */; };
+		1595AA961552404A00B153F4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1595AA941552404A00B153F4 /* ViewController.xib */; };
+		1595AA9A1552407600B153F4 /* TapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595AA991552407600B153F4 /* TapDetectingImageView.m */; };
+		1595AA9E155240C500B153F4 /* DetailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595AA9C155240C400B153F4 /* DetailedView.m */; };
+		1595AA9F155240C500B153F4 /* DetailedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1595AA9D155240C400B153F4 /* DetailedView.xib */; };
+		1595AAA1155240F300B153F4 /* img.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1595AAA0155240F200B153F4 /* img.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,21 @@
 		1595AA7B15523FD800B153F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1595AA7D15523FD800B153F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1595AA7F15523FD800B153F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1595AA8315523FD800B153F4 /* HMScrollViewDemo-Info.plist */ = {isa = PBXFileReference; path = "HMScrollViewDemo-Info.plist"; sourceTree = "<group>"; };
+		1595AA8315523FD800B153F4 /* HMScrollViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HMScrollViewDemo-Info.plist"; sourceTree = "<group>"; };
 		1595AA8515523FD800B153F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1595AA8715523FD800B153F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1595AA8915523FD800B153F4 /* HMScrollViewDemo-Prefix.pch */ = {isa = PBXFileReference; path = "HMScrollViewDemo-Prefix.pch"; sourceTree = "<group>"; };
-		1595AA8A15523FD800B153F4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1595AA8915523FD800B153F4 /* HMScrollViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HMScrollViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1595AA8A15523FD800B153F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1595AA8B15523FD800B153F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1595AA921552404900B153F4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1595AA931552404900B153F4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1595AA941552404A00B153F4 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		1595AA981552407600B153F4 /* TapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDetectingImageView.h; sourceTree = "<group>"; };
+		1595AA991552407600B153F4 /* TapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapDetectingImageView.m; sourceTree = "<group>"; };
+		1595AA9B155240C400B153F4 /* DetailedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedView.h; sourceTree = "<group>"; };
+		1595AA9C155240C400B153F4 /* DetailedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedView.m; sourceTree = "<group>"; };
+		1595AA9D155240C400B153F4 /* DetailedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedView.xib; sourceTree = "<group>"; };
+		1595AAA0155240F200B153F4 /* img.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = img.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +60,7 @@
 		1595AA6C15523FD800B153F4 = {
 			isa = PBXGroup;
 			children = (
+				1595AA971552407600B153F4 /* TapDetectingImageView */,
 				1595AA8115523FD800B153F4 /* HMScrollViewDemo */,
 				1595AA7A15523FD800B153F4 /* Frameworks */,
 				1595AA7815523FD800B153F4 /* Products */,
@@ -72,8 +88,15 @@
 		1595AA8115523FD800B153F4 /* HMScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1595AAA0155240F200B153F4 /* img.gif */,
 				1595AA8A15523FD800B153F4 /* AppDelegate.h */,
 				1595AA8B15523FD800B153F4 /* AppDelegate.m */,
+				1595AA921552404900B153F4 /* ViewController.h */,
+				1595AA931552404900B153F4 /* ViewController.m */,
+				1595AA941552404A00B153F4 /* ViewController.xib */,
+				1595AA9B155240C400B153F4 /* DetailedView.h */,
+				1595AA9C155240C400B153F4 /* DetailedView.m */,
+				1595AA9D155240C400B153F4 /* DetailedView.xib */,
 				1595AA8215523FD800B153F4 /* Supporting Files */,
 			);
 			path = HMScrollViewDemo;
@@ -88,6 +111,16 @@
 				1595AA8915523FD800B153F4 /* HMScrollViewDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1595AA971552407600B153F4 /* TapDetectingImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1595AA981552407600B153F4 /* TapDetectingImageView.h */,
+				1595AA991552407600B153F4 /* TapDetectingImageView.m */,
+			);
+			name = TapDetectingImageView;
+			path = HMScrollViewDemo/TapDetectingImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1595AA8615523FD800B153F4 /* InfoPlist.strings in Resources */,
+				1595AA961552404A00B153F4 /* ViewController.xib in Resources */,
+				1595AA9F155240C500B153F4 /* DetailedView.xib in Resources */,
+				1595AAA1155240F300B153F4 /* img.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +189,9 @@
 			files = (
 				1595AA8815523FD800B153F4 /* main.m in Sources */,
 				1595AA8C15523FD800B153F4 /* AppDelegate.m in Sources */,
+				1595AA951552404A00B153F4 /* ViewController.m in Sources */,
+				1595AA9A1552407600B153F4 /* TapDetectingImageView.m in Sources */,
+				1595AA9E155240C500B153F4 /* DetailedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
